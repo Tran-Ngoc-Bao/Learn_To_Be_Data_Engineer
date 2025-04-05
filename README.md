@@ -1,2 +1,3 @@
-# Learn_To_Be_Data_Engineer
-What to learn to become a Data engineer
+## Learn_To_Be_Data_Engineer
+
+Each folder is a technology I learned to become a data engineer.
