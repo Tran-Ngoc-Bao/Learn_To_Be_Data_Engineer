@@ -1,14 +1,14 @@
-<b style="font-size:20px">Each folder is a technology I learned to become a data engineer.</b>
+<b style="font-size:30px">Each folder is a group technologies I learned to become a Data Engineer.</b>
 
 ## Programming languages
-#### 1. [Python](python)
-#### 2. [Java](java)
-#### 3. [Scala](scala)
+#### 1. [Python](programming_languages/python)
+#### 2. [Java](programming_languages/java)
+#### 3. [Scala](programming_languages/scala)
 
 ## Hadoop ecosystem
-#### 1. [HDFS](hdfs)
-#### 2. [YARN](yarn)
-#### 3. Other ([Hive](hive), [Hbase](hbase))
+#### 1. [HDFS](hadoop/hdfs)
+#### 2. [YARN](hadoop/yarn)
+#### 3. Other ([Hive](hadoop/hive), [Hbase](hadoop/hbase))
 
 ## Data processing
 
