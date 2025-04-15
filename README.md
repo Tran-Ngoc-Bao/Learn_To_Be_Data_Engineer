@@ -1,4 +1,4 @@
-<b style="font-size:30px">Each folder is a group technologies I learned to become a Data Engineer.</b>
+## Each folder is a group technologies I learned to become a Data Engineer
 
 ## Programming languages
 #### 1. [Python](programming_languages/python)
@@ -11,9 +11,11 @@
 #### 3. Other ([Hive](hadoop/hive), [Hbase](hadoop/hbase))
 
 ## Data processing
+#### 1. [Spark](data_processing/spark)
 
 ## ETL Data
 
 ## Deployment
 
 ## Other
+#### 1. General knowledge: Linux, Computer network and Operating system
