@@ -3,7 +3,6 @@
 ## Programming languages
 #### 1. [Python](programming_languages/python)
 #### 2. [Java](programming_languages/java)
-#### 3. [Scala](programming_languages/scala)
 
 ## General knowledge
 #### 1. SQL: SQL Server, PostgreSQL
