@@ -5,6 +5,12 @@
 #### 2. [Java](programming_languages/java)
 #### 3. [Scala](programming_languages/scala)
 
+## General knowledge
+#### 1. SQL: SQL Server, PostgreSQL
+#### 2. Docker, Linux, Computer network and Operating system
+#### 3. Overview of Big data
+#### 4. Data Warehouse, Data Lake and Data Lakehouse
+
 ## Hadoop ecosystem
 #### 1. [HDFS](hadoop/hdfs)
 #### 2. [YARN](hadoop/yarn)
@@ -14,8 +20,10 @@
 #### 1. [Spark](data_processing/spark)
 
 ## ETL Data
+#### 1. [Airflow](etl_data/airflow)
+#### 2. [Kafka](etl_data/kafka)
 
 ## Deployment
+#### 1. [Kubernetes](deployment/kubernetes)
 
 ## Other
-#### 1. General knowledge: Linux, Computer network and Operating system
