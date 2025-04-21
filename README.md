@@ -9,6 +9,7 @@
 #### 2. Docker, Linux, Computer network and Operating system
 #### 3. Overview of Big data
 #### 4. Data Warehouse, Data Lake and Data Lakehouse
+#### 4. Data warehousing: Inmon, Kimball, Data vault
 
 ## Hadoop ecosystem
 #### 1. [HDFS](hadoop/hdfs)
