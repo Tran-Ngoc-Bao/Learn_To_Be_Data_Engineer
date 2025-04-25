@@ -4,12 +4,11 @@
 #### 1. [Python](programming_languages/python)
 #### 2. [Java](programming_languages/java)
 
-## General knowledge
+## [General knowledge](general_knowledge)
 #### 1. SQL: SQL Server, PostgreSQL
 #### 2. Docker, Linux, Computer network and Operating system
 #### 3. Overview of Big data
-#### 4. Data Warehouse, Data Lake and Data Lakehouse
-#### 4. Data warehousing: Inmon, Kimball, Data vault
+#### 4. Data architecture and Data modeling
 
 ## Hadoop ecosystem
 #### 1. [HDFS](hadoop/hdfs)
@@ -22,6 +21,9 @@
 ## ETL Data
 #### 1. [Airflow](etl_data/airflow)
 #### 2. [Kafka](etl_data/kafka)
+
+## Data analyzing
+#### 1. [Trino](data_analyzing/trino)
 
 ## Deployment
 #### 1. [Kubernetes](deployment/kubernetes)
