@@ -4,7 +4,7 @@
 #### 1. [Python](programming_languages/python)
 #### 2. [Java](programming_languages/java)
 
-## [General knowledge](general_knowledge)
+## General knowledge [(folder)](general_knowledge)
 #### 1. SQL: SQL Server, PostgreSQL
 #### 2. Docker, Linux, Computer network and Operating system
 #### 3. Overview of Big data
