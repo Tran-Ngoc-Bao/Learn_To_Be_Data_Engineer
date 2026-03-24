@@ -15,17 +15,14 @@
 #### 2. [YARN](hadoop/yarn)
 #### 3. Other ([Hive](hadoop/hive), [Hbase](hadoop/hbase))
 
-## Data processing
+## Data processing & Query engine
 #### 1. [Spark](data_processing/spark)
+#### 2. [Trino](data_analyzing/trino)
 
-## ETL Data
-#### 1. [Airflow](etl_data/airflow)
+## ETL/ELT Data
+#### 1. [Airflow](etl_data/airflow) (Has docker-compose)
 #### 2. [Kafka](etl_data/kafka)
 
-## Data analyzing
-#### 1. [Trino](data_analyzing/trino)
-
 ## Deployment
-#### 1. [Kubernetes](deployment/kubernetes)
-
-## Other
+#### 1. [Docker](deployment/docker)
+#### 2. [Kubernetes](deployment/kubernetes)
