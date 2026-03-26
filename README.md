@@ -13,9 +13,9 @@ Learn_To_Be_Data_Engineer/
 ├── programming_languages/   # Python & Java fundamentals
 ├── general_knowledge/       # SQL, Docker, Linux, Big Data concepts
 ├── hadoop/                  # HDFS, YARN, Hive, HBase
-├── data_processing/         # Apache Spark
-├── data_analyzing/          # Trino query engine
-├── etl_data/                # Airflow & Kafka pipelines
+├── data_processing/         # Spark, Kafka
+├── query_engine/            # Trino
+├── etl_data/                # Airflow & Others
 └── deployment/              # Docker & Kubernetes
 ```
 
@@ -56,7 +56,8 @@ Learn_To_Be_Data_Engineer/
 | Technology | Folder | Description |
 |---|---|---|
 | Apache Spark | [data_processing/spark](data_processing/spark) | Distributed data processing engine |
-| Trino | [data_analyzing/trino](data_analyzing/trino) | Fast distributed SQL query engine |
+| Trino | [query_engine/trino](query_engine/trino) | Fast distributed SQL query engine |
+| Apache Kafka | [data_processing/kafka](data_processing/kafka) | Distributed event streaming platform |
 
 ---
 
@@ -64,7 +65,7 @@ Learn_To_Be_Data_Engineer/
 | Technology | Folder | Description |
 |---|---|---|
 | Apache Airflow | [etl_data/airflow](etl_data/airflow) | Workflow orchestration *(includes docker-compose)* |
-| Apache Kafka | [etl_data/kafka](etl_data/kafka) | Distributed event streaming platform |
+| Others | [etl_data/others](etl_data/others) | Workflow orchestration *(Dagster, Prefect)* |
 
 ---
 
@@ -85,9 +86,9 @@ Learn_To_Be_Data_Engineer/
         ↓
 3. Hadoop Ecosystem (HDFS, YARN, Hive, HBase)
         ↓
-4. Data Processing & Query Engine (Spark, Trino)
+4. Data Processing & Query Engine (Spark, Trino, Kafka)
         ↓
-5. ETL / ELT Pipelines (Airflow, Kafka)
+5. ETL / ELT Pipelines (Airflow, Dagster, Prefect)
         ↓
 6. Deployment (Docker, Kubernetes)
 ```
