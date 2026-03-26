@@ -14,7 +14,7 @@ Learn_To_Be_Data_Engineer/
 ├── general_knowledge/       # SQL, Docker, Linux, Big Data concepts
 ├── hadoop/                  # HDFS, YARN, Hive, HBase
 ├── data_processing/         # Spark, Kafka
-├── query_engine/            # Trino
+├── query_engine/            # Trino/Presto
 ├── etl_data/                # Airflow & Others
 └── deployment/              # Docker & Kubernetes
 ```
@@ -56,7 +56,7 @@ Learn_To_Be_Data_Engineer/
 | Technology | Folder | Description |
 |---|---|---|
 | Apache Spark | [data_processing/spark](data_processing/spark) | Distributed data processing engine |
-| Trino | [query_engine/trino](query_engine/trino) | Fast distributed SQL query engine |
+| Trino/Presto | [query_engine/trino](query_engine/trino) | Fast distributed SQL query engine |
 | Apache Kafka | [data_processing/kafka](data_processing/kafka) | Distributed event streaming platform |
 
 ---
