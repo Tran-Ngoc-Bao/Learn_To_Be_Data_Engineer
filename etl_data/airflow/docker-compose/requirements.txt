@@ -1,5 +1,0 @@
-ARG AIRFLOW_IMAGE_VERSION
-FROM apache/airflow:${AIRFLOW_IMAGE_VERSION}
-
-ADD requirements.txt .
-RUN pip install -r requirements.txt
