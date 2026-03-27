@@ -1,0 +1,5 @@
+load_from:
+  - grpc_server:
+      host: 127.0.0.1
+      port: 4000
+      location_name: my_dagster_app
