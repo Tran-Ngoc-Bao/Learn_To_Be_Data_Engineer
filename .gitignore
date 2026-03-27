@@ -1,2 +1,29 @@
 .DS_Store
-etl_data/airflow/docker-compose/
+
+# ─── Airflow generated folders ───────────────────────────────────────────────
+logs/
+plugins/
+config/
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
+
+# ─── Dagster generated folders ───────────────────────────────────────────────
+dagster_home/
+.dagster/
+
+# ─── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ─── Build / packaging ────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
