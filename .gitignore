@@ -1,16 +1,15 @@
 .DS_Store
 
 # ─── Airflow generated folders ───────────────────────────────────────────────
-logs/
-plugins/
-config/
-airflow.db
-airflow.cfg
-standalone_admin_password.txt
+etl_data/airflow/docker-compose/logs/
+etl_data/airflow/docker-compose/plugins/
+etl_data/airflow/docker-compose/config/
 
 # ─── Dagster generated folders ───────────────────────────────────────────────
 dagster_home/
-.dagster/
+
+# ─── Prefect generated folders ───────────────────────────────────────────────
+.prefect/
 
 # ─── Python cache ─────────────────────────────────────────────────────────────
 __pycache__/
