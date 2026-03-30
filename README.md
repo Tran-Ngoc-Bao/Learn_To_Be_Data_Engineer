@@ -16,7 +16,9 @@ Learn_To_Be_Data_Engineer/
 ├── data_processing/         # Spark, Kafka
 ├── query_engine/            # Trino/Presto
 ├── etl_data/                # Airflow & Others
-└── deployment/              # Docker & Kubernetes
+├── data_governance/         # Quality, lineage, catalog, security, contracts
+├── ci_cd/                   # Build, test, release, deploy automation
+└── cloud/                   # AWS/GCP/Azure + IaC + Observability
 ```
 
 ---
@@ -69,11 +71,24 @@ Learn_To_Be_Data_Engineer/
 
 ---
 
-### 6. 🚀 Deployment
-| Technology | Folder | Description |
+### 6. 🧾 Data Governance
+📁 [data_governance](data_governance)
+
+---
+
+### 7. 🔁 CI/CD (Build, Test, Release, Deploy)
+| Topic | Folder | Description |
 |---|---|---|
-| Docker | [deployment/docker](deployment/docker) | Container-based deployment |
-| Kubernetes | [deployment/kubernetes](deployment/kubernetes) | Container orchestration at scale |
+| CI basics | [ci_cd](ci_cd) | Linting, testing, build pipelines |
+| CD basics | [ci_cd](ci_cd) | Promotion, environments, approvals |
+| GitHub Actions | [ci_cd](ci_cd) | Workflows, runners, secrets |
+| Docker | [ci_cd/docker](ci_cd/docker) | Build images, tags, push to registry |
+| Kubernetes | [ci_cd/kubernetes](ci_cd/kubernetes) | Deploy strategies, manifests, Helm |
+
+---
+
+### 8. ☁️ Cloud Computing
+📁 [cloud](cloud)
 
 ---
 
@@ -90,7 +105,11 @@ Learn_To_Be_Data_Engineer/
         ↓
 5. ETL / ELT Pipelines (Airflow, Dagster, Prefect)
         ↓
-6. Deployment (Docker, Kubernetes)
+6. Data Governance (Quality, lineage, security, metadata)
+        ↓
+7. CI/CD (GitHub Actions, build/test, Docker, Kubernetes deploy)
+        ↓
+8. Cloud Computing (IAM, storage, managed services, IaC)
 ```
 
 ---
