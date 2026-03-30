@@ -1,28 +1,120 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# OS / Editor
+# ──────────────────────────────────────────────────────────────────────────────
 .DS_Store
+Thumbs.db
 
-# ─── Airflow generated folders ───────────────────────────────────────────────
-etl_data/airflow/docker-compose/logs/
-etl_data/airflow/docker-compose/plugins/
-etl_data/airflow/docker-compose/config/
+.vscode/
+.idea/
+*.iml
 
-# ─── Dagster generated folders ───────────────────────────────────────────────
-dagster_home/
-
-# ─── Prefect generated folders ───────────────────────────────────────────────
-.prefect/
-
-# ─── Python cache ─────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
-*.pyo
 *.pyd
+.Python
 
-# ─── Virtual environments ─────────────────────────────────────────────────────
+# virtualenv
 .venv/
 venv/
 env/
 
-# ─── Build / packaging ────────────────────────────────────────────────────────
-*.egg-info/
-dist/
+# packaging / build
 build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# type checker / linters
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.cache/
+
+# logs
+*.log
+
+# dotenv / secrets
+.env
+.env.*
+!.env.example
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Jupyter / Data Science
+# ──────────────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.pkl
+*.pickle
+
+# common local data folders (uncomment if you use them)
+# data/
+# datasets/
+# output/
+# tmp/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Airflow (standalone / local)
+# NOTE: do NOT ignore the whole docker-compose folder if you want to keep configs
+# ──────────────────────────────────────────────────────────────────────────────
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
+
+# if Airflow creates these in your project root
+logs/
+plugins/
+config/
+
+# if you run Airflow in this specific folder and it generates logs/plugins there
+etl_data/airflow/docker-compose/logs/
+etl_data/airflow/docker-compose/plugins/
+etl_data/airflow/docker-compose/config/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Dagster
+# ──────────────────────────────────────────────────────────────────────────────
+dagster_home/
+.dagster/
+
+# if dagster_home is inside your deployment folder
+etl_data/others/dagster/deployment/dagster_home/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Prefect
+# ──────────────────────────────────────────────────────────────────────────────
+.prefect/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Docker (local)
+# ──────────────────────────────────────────────────────────────────────────────
+**/.docker/
+**/docker-data/
+**/docker_volumes/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Node (in case you have JS tools in repo later)
+# ──────────────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Misc
+# ──────────────────────────────────────────────────────────────────────────────
+*.tmp
+*.swp
+*.swo

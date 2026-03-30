@@ -34,7 +34,7 @@ Learn_To_Be_Data_Engineer/
 ### 2. 📖 General Knowledge
 📁 [general_knowledge](general_knowledge)
 
-- **SQL** – SQL Server, PostgreSQL
+- **SQL & NoSQL** – SQL Server, PostgreSQL and NoSQL
 - **Docker & Linux** – containerization, shell scripting, system management
 - **Computer Networks & Operating Systems** – fundamentals for distributed systems
 - **Big Data Overview** – core concepts and ecosystem
