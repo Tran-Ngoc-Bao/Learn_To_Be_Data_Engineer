@@ -94,7 +94,14 @@ Learn_To_Be_Data_Engineer/
 ---
 
 ### 8. ☁️ Cloud Computing
-📁 [cloud](cloud)
+
+| Topic | Folder | Description |
+|---|---|---|
+| Cloud fundamentals | [cloud](cloud) | Regions/zones, shared responsibility model, core cloud concepts. |
+| IAM & networking | [cloud](cloud) | Roles/policies, VPC/VNet, security groups, private access patterns. |
+| Storage & compute | [cloud](cloud) | Object storage + compute options (VM/containers/serverless) for DE workloads. |
+| Managed data services | [cloud](cloud) | Warehouses/lakehouses, managed Spark, orchestration, streaming services. |
+| IaC & operations | [cloud](cloud) | Terraform basics, observability (logs/metrics), and cost controls. |
 
 ---
 
