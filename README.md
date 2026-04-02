@@ -72,7 +72,13 @@ Learn_To_Be_Data_Engineer/
 ---
 
 ### 6. 🧾 Data Governance
-📁 [data_governance](data_governance)
+| Topic | Folder | Description |
+|---|---|---|
+| Data Quality | [data_governance](data_governance) | Validation, freshness, completeness |
+| Metadata & Catalog | [data_governance](data_governance) | Ownership, documentation, discovery |
+| Data Lineage | [data_governance](data_governance) | Upstream/downstream tracking |
+| Security & Access Control | [data_governance](data_governance) | RBAC, encryption, audits |
+| OpenMetadata | [data_governance/open_metadata](data_governance/open_metadata) | Metadata catalog tool |
 
 ---
 
