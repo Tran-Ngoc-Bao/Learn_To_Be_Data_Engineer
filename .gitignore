@@ -103,6 +103,7 @@ etl_data/others/dagster/deployment/dagster_home/
 **/.docker/
 **/docker-data/
 **/docker_volumes/
+**/docker-volume/
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Node (in case you have JS tools in repo later)
